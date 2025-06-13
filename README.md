@@ -8,6 +8,10 @@
 
 Install directly from PyPI:
 
+Make sure to pre-install: pip install planetary-computer, pip install awscli
+
+
+
 ```bash
 pip install dl4eo
 ```
