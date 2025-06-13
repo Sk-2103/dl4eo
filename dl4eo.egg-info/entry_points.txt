@@ -1,0 +1,2 @@
+[console_scripts]
+dl4eo-run = dl4eo.pipeline:generate_dataset
