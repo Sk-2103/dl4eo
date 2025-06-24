@@ -1,6 +1,6 @@
 # dl4eo
 
-**dl4eo** is a Python package designed to streamline the end-to-end pipeline for generating multi-source remote sensing dataset for deep learning applications. This pipeline primarily combine dataset of Sentinel-1, Sentinel-2 and Copernicus DEM. It automates downloading, preprocessing, DEM/SAR integration, and mask/normalization steps using Sentinel-1, Sentinel-2, and elevation data producing stackable chips for training robust Earth observation models.The Final dataset will contains 11 bands inclusing seven bands from sentinel2, Elevation, slope from Copernicus DEM, RTC (Radiometrically terrain corrected)VV and VH layers from Sentinel-1.
+**dl4eo** is a Python package designed to streamline the end-to-end pipeline for generating multi-source remote sensing dataset for deep learning applications. This pipeline primarily combines  Sentinel-1, Sentinel-2 and Copernicus DEM. It automates downloading, preprocessing, DEM/SAR integration, and mask/normalization steps using Sentinel-1, Sentinel-2, and elevation data producing stackable chips for training robust Earth observation models. The Final dataset contains 11 bands including seven bands from sentinel2, Elevation, slope from Copernicus DEM, RTC (Radiometrically terrain corrected)VV and VH layers from Sentinel-1.
 
 ---
 
