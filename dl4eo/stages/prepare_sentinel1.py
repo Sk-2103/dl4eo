@@ -109,8 +109,8 @@ def run(cfg):
             failed_shapefiles.add(shapefile_name)
             return
 
-        start_date = (target_date - timedelta(days=10)).strftime("%Y-%m-%d")
-        end_date = (target_date + timedelta(days=10)).strftime("%Y-%m-%d")
+        start_date = (target_date - timedelta(days=5)).strftime("%Y-%m-%d")
+        end_date = (target_date + timedelta(days=5)).strftime("%Y-%m-%d")
         print(f"[INFO] Searching RTC in range: {start_date} to {end_date}")
 
         items = robust_search(catalog, union_geom, start_date, end_date)
