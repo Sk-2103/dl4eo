@@ -35,8 +35,8 @@ without leakage, normalized, passed to a training loop, and finally exported as
 georeferenced predictions. Each step is typically re-implemented for every new
 project.
 
-`dl4eo` is a Python package that provides this entire workflow — from raw
-satellite data to an evaluated, georeferenced segmentation model — through a
+`dl4eo` is a Python package that provides this entire workflow from raw
+satellite data to an evaluated, georeferenced segmentation model through a
 small number of high-level function calls, without requiring API credentials or
 manual environment configuration. It automatically retrieves and spatially
 aligns Sentinel-2 Level-2A optical imagery, Sentinel-1 radiometrically
