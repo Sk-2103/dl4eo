@@ -124,7 +124,7 @@ substantially reduces storage.
 *Lightweight by default.* A bare `import dl4eo` does not import PyTorch, allowing
 the data pipeline to run in CPU-only environments; the training and evaluation
 stack is installed only via the optional extra (`pip install dl4eo[train]`).
-Twelve architectures — encoder–decoder models (UNet, UNet++, DeepLabV3+, FPN,
+Twelve architectures, encoder–decoder models (UNet, UNet++, DeepLabV3+, FPN,
 PSPNet, LinkNet, PAN, MA-Net) [@unet; @deeplabv3plus; @fpn], a SegFormer-style
 model [@segformer], and Vision Transformer variants — are exposed through one
 training interface and one evaluation interface, enabling rapid multi-model
