@@ -10,11 +10,11 @@ tags:
   - Sentinel-2
 authors:
   - name: Saurabh Kaushik
-    orcid: 0000-0002-2791-3729   # TODO: insert your ORCID
+    orcid: 0000-0002-2791-3729   
     corresponding: true
     affiliation: 1
   - name: Beth Tellman
-    orcid: 0000-0003-3026-6435   # TODO: insert co-author ORCID
+    orcid: 0000-0003-3026-6435  
     affiliation: 1
 affiliations:
   - name: Center for Sustainability and the Global Environment (SAGE), Nelson Institute for Environmental Studies, University of Wisconsin–Madison, Madison, WI, USA
