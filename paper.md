@@ -116,9 +116,9 @@ Sentinel-2 tiles to different partitions, reducing the autocorrelation-driven
 leakage common in raster-derived EO datasets [@russwurm2020; @jean2019].
 
 *Label-guided patch selection.* When tiling a scene, only grid cells that
-intersect at least one label polygon are retained. For rare features — a
+intersect at least one label polygon are retained. For rare features, a
 Himalayan glacial-lake scene may contain lake pixels in well under 3% of naively
-generated patches — this removes the need for background-ratio sampling and
+generated patches, this removes the need for background-ratio sampling and
 substantially reduces storage.
 
 *Lightweight by default.* A bare `import dl4eo` does not import PyTorch, allowing
