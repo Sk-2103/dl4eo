@@ -136,7 +136,7 @@ prediction as a single-band GeoTIFF carrying the exact CRS and affine transform
 of its source patch, so outputs overlay directly in QGIS or ArcGIS. A schematic
 of the workflow is shown in Figure 1.
 
-![Schematic overview of the `dl4eo` workflow, from multi-sensor acquisition to georeferenced prediction export.\label{fig:overview}](figure1.png)
+![Schematic overview of the dl4eo workflow, from multi-sensor acquisition to georeferenced prediction export.\label{fig:overview}](dl4eo.png)
 
 # Research impact
 
