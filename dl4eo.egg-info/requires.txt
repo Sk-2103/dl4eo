@@ -1,9 +1,0 @@
-numpy
-rasterio
-geopandas
-shapely
-matplotlib
-joblib
-pystac-client
-fiona
-requests
